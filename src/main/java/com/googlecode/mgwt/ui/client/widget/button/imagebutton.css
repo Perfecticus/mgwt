@@ -12,12 +12,16 @@
   .mgwt-ImageButton {
     display: -webkit-box; /* iOS < 7 && Android < 4.4*/
     display: -webkit-flex;
+    -webkit-flex-shrink: 0;
+    -webkit-flex-grow: 1;
   }
 }
 
 @if user.agent gecko1_8 {
   .mgwt-ImageButton {
     display: -moz-box;
+    -moz-box-shrink: 0;
+    -moz-box-grow: 1;
   }
 }
 
@@ -39,6 +43,8 @@
 
 .mgwt-ImageButton {
   display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
   color: #454545;
   max-width: 130px;
   overflow: hidden;
@@ -87,7 +93,7 @@
   border: none;
   border-radius: 0px;
   background-color: transparent;
-  margin: 0 5px 0 5px;
+/*   margin: 0 5px 0 5px; */
 }
 
 .mgwt-ImageButton.mgwt-ImageButton-small.mgwt-ImageButton-active {

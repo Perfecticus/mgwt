@@ -1,12 +1,12 @@
 /*
  * Copyright 2014 Daniel Kurka
- *
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
  * the License at
- *
+ * 
  * http://www.apache.org/licenses/LICENSE-2.0
- *
+ * 
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
@@ -72,7 +72,7 @@ public class IconHandler {
 			// iconWidth /= 2;
 			// iconHeight /= 2;
 			// }
-			final int iconWidth = Math.min(Window.getClientWidth() * 7 / 100, 48);
+			final int iconWidth = Math.min(Window.getClientWidth() * 8 / 100, 48);
 			final int iconHeight = iconWidth;
 			return new Dimension(iconWidth, iconHeight);
 		}
